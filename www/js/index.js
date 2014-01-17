@@ -21,7 +21,6 @@ var app = {
     initialize: function() {
     	
     	Draggable.create(".listening", {
-		bounds:window,
 		edgeResistance:0.65,
 		type:"x,y",
 		throwProps:true,
@@ -45,7 +44,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
     	
-    	alert("onDeviceReady");
+    	alert("onDeviceReady - v2");
     	
         app.receivedEvent('deviceready');
         
