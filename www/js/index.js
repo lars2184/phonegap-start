@@ -36,7 +36,7 @@ var app = {
     bindEvents: function() {
     	//alert("bind");
     	
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        //document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
